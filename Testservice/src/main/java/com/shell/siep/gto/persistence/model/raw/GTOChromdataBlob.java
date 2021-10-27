@@ -1,0 +1,60 @@
+package com.shell.siep.gto.persistence.model.raw;
+
+import com.shell.siep.gto.persistence.model.GTOAnalysisData;
+
+import java.util.Date;
+
+public interface GTOChromdataBlob extends GTOAnalysisData {
+	public String getChromdataLabNum();
+	public void setChromdataLabNum(String chromdataLabNum);
+	public Date getChromdataLastUpdate();
+	public void setChromdataLastUpdate(Date chromdataLastUpdate);
+	public String getSampleId();
+	public void setSampleId(String sampleId);
+	public String getChromdataSampleIdVend();
+	public void setChromdataSampleIdVend(String chromdataSampleIdVend);
+	public Date getChromdataJobDate();
+	public void setChromdataJobDate(Date chromdataJobDate);
+	public String getChromdataSvcCode();
+	public void setChromdataSvcCode(String chromdataSvcCode);
+	public Date getChromdataQcDate();
+	public void setChromdataQcDate(Date chromdataQcDate);
+	public String getChromdataRunNumber();
+	public void setChromdataRunNumber(String chromdataRunNumber);
+	public String getChromdataType();
+	public void setChromdataType(String chromdataType);
+	public String getChromdataJobId();
+	public void setChromdataJobId(String chromdataJobId);
+	public String getChromdataQcUser();
+	public void setChromdataQcUser(String chromdataQcUser);
+	public String getChromdataLab();
+	public void setChromdataLab(String chromdataLab);
+	public String getChromdataComment();
+	public void setChromdataComment(String chromdataComment);
+	public Integer getChromdataVersion();
+	public void setChromdataVersion(Integer chromdataVersion);
+	public String getChromdataMethod();
+	public void setChromdataMethod(String chromdataMethod);
+	public Integer getChromdataRecordId();
+	public void setChromdataRecordId(Integer chromdataRecordId);
+	public String getChromdataQc();
+	public void setChromdataQc(String chromdataQc);
+	public String getChromdataAuthor();
+	public void setChromdataAuthor(String chromdataAuthor);
+	public String getChromdataIqmCode();
+	public void setChromdataIqmCode(String chromdataIqmCode);
+	public String getRequestId();
+	public void setRequestId(String requestId);
+	public Date getChromdataCreatedDate();
+	public void setChromdataCreatedDate(Date chromdataCreatedDate);
+	public Date getChromdataLastUpdated();
+	public void setChromdataLastUpdated(Date chromdataLastUpdated);
+	public String getChromdataCreatedUser();
+	public void setChromdataCreatedUser(String chromdataCreatedUser);
+	public String getChromdataRequestIdVend();
+	public void setChromdataRequestIdVend(String chromdataRequestIdVend);
+	public String getChromdataComments();
+	public void setChromdataComments(String chromdataComments);
+	public String getChromdataUpdatedUser();
+	public void setChromdataUpdatedUser(String chromdataUpdatedUser);
+}

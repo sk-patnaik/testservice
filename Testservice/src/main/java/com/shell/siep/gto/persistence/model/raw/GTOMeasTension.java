@@ -1,0 +1,62 @@
+package com.shell.siep.gto.persistence.model.raw;
+
+import com.shell.siep.gto.persistence.model.GTOAnalysisData;
+
+import java.util.Date;
+
+public interface GTOMeasTension extends GTOAnalysisData {
+	public String getTensLabref();
+	public void setTensLabref(String tensLabref);
+	public Integer getTensOpid();
+	public void setTensOpid(Integer tensOpid);
+	public String getTensLabpage();
+	public void setTensLabpage(String tensLabpage);
+	public String getSampleId();
+	public void setSampleId(String sampleId);
+	public String getTensQcUser();
+	public void setTensQcUser(String tensQcUser);
+	public String getTensMethod();
+	public void setTensMethod(String tensMethod);
+	public String getTensLab();
+	public void setTensLab(String tensLab);
+	public String getTensSampleIdVend();
+	public void setTensSampleIdVend(String tensSampleIdVend);
+	public String getTensUpdatedUser();
+	public void setTensUpdatedUser(String tensUpdatedUser);
+	public Double getTensValue();
+	public void setTensValue(Double tensValue);
+	public Double getTensTemp();
+	public void setTensTemp(Double tensTemp);
+	public String getTensCreatedDate();
+	public void setTensCreatedDate(String tensCreatedDate);
+	public String getTensAuthor();
+	public void setTensAuthor(String tensAuthor);
+	public String getTensTempUnits();
+	public void setTensTempUnits(String tensTempUnits);
+	public String getTensQcFlag();
+	public void setTensQcFlag(String tensQcFlag);
+	public String getTensRunNumber();
+	public void setTensRunNumber(String tensRunNumber);
+	public Date getTensQcDate();
+	public void setTensQcDate(Date tensQcDate);
+	public Date getTensUpdatedDate();
+	public void setTensUpdatedDate(Date tensUpdatedDate);
+	public String getTensQual();
+	public void setTensQual(String tensQual);
+	public String getTensRequestIdVendor();
+	public void setTensRequestIdVendor(String tensRequestIdVendor);
+	public String getTensCreatedUser();
+	public void setTensCreatedUser(String tensCreatedUser);
+	public String getTensSvcCode();
+	public void setTensSvcCode(String tensSvcCode);
+	public String getTensJobId();
+	public void setTensJobId(String tensJobId);
+	public Date getTensAcqDate();
+	public void setTensAcqDate(Date tensAcqDate);
+	public String getTensUnits();
+	public void setTensUnits(String tensUnits);
+	public String getTensComments();
+	public void setTensComments(String tensComments);
+	public String getRequestId();
+	public void setRequestId(String requestId);
+}

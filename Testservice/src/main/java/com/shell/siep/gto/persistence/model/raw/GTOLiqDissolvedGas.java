@@ -1,0 +1,60 @@
+package com.shell.siep.gto.persistence.model.raw;
+
+import com.shell.siep.gto.persistence.model.GTOAnalysisData;
+
+import java.util.Date;
+
+public interface GTOLiqDissolvedGas extends GTOAnalysisData {
+	public String getSampleId();
+	public void setSampleId(String sampleId);
+	public String getDgComment();
+	public void setDgComment(String dgComment);
+	public Date getDgAcqDate();
+	public void setDgAcqDate(Date dgAcqDate);
+	public String getDgQcUser();
+	public void setDgQcUser(String dgQcUser);
+	public String getDgSampleIdVend();
+	public void setDgSampleIdVend(String dgSampleIdVend);
+	public Date getDgQcDate();
+	public void setDgQcDate(Date dgQcDate);
+	public String getRequestId();
+	public void setRequestId(String requestId);
+	public String getDgUpdatedUser();
+	public void setDgUpdatedUser(String dgUpdatedUser);
+	public String getDgCreatedUser();
+	public void setDgCreatedUser(String dgCreatedUser);
+	public String getDgRequestIdVend();
+	public void setDgRequestIdVend(String dgRequestIdVend);
+	public Integer getDgLab();
+	public void setDgLab(Integer dgLab);
+	public Date getDgUpdatedDate();
+	public void setDgUpdatedDate(Date dgUpdatedDate);
+	public Integer getDgH2sMethodId();
+	public void setDgH2sMethodId(Integer dgH2sMethodId);
+	public Integer getDgConfTypeId();
+	public void setDgConfTypeId(Integer dgConfTypeId);
+	public Date getDgCreatedDate();
+	public void setDgCreatedDate(Date dgCreatedDate);
+	public Integer getDgCo2MethodId();
+	public void setDgCo2MethodId(Integer dgCo2MethodId);
+	public Integer getDgRecordTypeId();
+	public void setDgRecordTypeId(Integer dgRecordTypeId);
+	public Double getDgH2s();
+	public void setDgH2s(Double dgH2s);
+	public Integer getDgH2sUnitsId();
+	public void setDgH2sUnitsId(Integer dgH2sUnitsId);
+	public String getDgSvcCode();
+	public void setDgSvcCode(String dgSvcCode);
+	public Integer getDgPk();
+	public void setDgPk(Integer dgPk);
+	public Integer getDgCo2UnitsId();
+	public void setDgCo2UnitsId(Integer dgCo2UnitsId);
+	public String getDgRunNumber();
+	public void setDgRunNumber(String dgRunNumber);
+	public Double getDgCo2();
+	public void setDgCo2(Double dgCo2);
+	public String getDgCo2Q();
+	public void setDgCo2Q(String dgCo2Q);
+	public String getDgH2sQ();
+	public void setDgH2sQ(String dgH2sQ);
+}

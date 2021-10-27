@@ -1,0 +1,64 @@
+package com.shell.siep.gto.persistence.model.raw;
+
+import com.shell.siep.gto.persistence.model.GTOAnalysisData;
+
+import java.util.Date;
+
+public interface GTOMeasPvalue extends GTOAnalysisData {
+	public Date getPvLastUpdate();
+	public void setPvLastUpdate(Date pvLastUpdate);
+	public String getPvRunNumber();
+	public void setPvRunNumber(String pvRunNumber);
+	public String getPvComment();
+	public void setPvComment(String pvComment);
+	public Double getPvLower();
+	public void setPvLower(Double pvLower);
+	public String getPvTempUnits();
+	public void setPvTempUnits(String pvTempUnits);
+	public String getPvCreatedUser();
+	public void setPvCreatedUser(String pvCreatedUser);
+	public Double getPvUpper();
+	public void setPvUpper(Double pvUpper);
+	public String getPvUpperQual();
+	public void setPvUpperQual(String pvUpperQual);
+	public String getPvSampleIdVend();
+	public void setPvSampleIdVend(String pvSampleIdVend);
+	public String getPvAuthor();
+	public void setPvAuthor(String pvAuthor);
+	public String getPvLabref();
+	public void setPvLabref(String pvLabref);
+	public String getPvUpdatedUser();
+	public void setPvUpdatedUser(String pvUpdatedUser);
+	public String getPvRequestIdVend();
+	public void setPvRequestIdVend(String pvRequestIdVend);
+	public Date getPvCreatedDate();
+	public void setPvCreatedDate(Date pvCreatedDate);
+	public String getPvLab();
+	public void setPvLab(String pvLab);
+	public String getPvMethod();
+	public void setPvMethod(String pvMethod);
+	public String getPvLabrefPage();
+	public void setPvLabrefPage(String pvLabrefPage);
+	public String getPvLowerQual();
+	public void setPvLowerQual(String pvLowerQual);
+	public String getPvType();
+	public void setPvType(String pvType);
+	public String getPvSvcCode();
+	public void setPvSvcCode(String pvSvcCode);
+	public Date getPvDate();
+	public void setPvDate(Date pvDate);
+	public String getPvQcFlag();
+	public void setPvQcFlag(String pvQcFlag);
+	public Date getPvQcDate();
+	public void setPvQcDate(Date pvQcDate);
+	public String getSampleId();
+	public void setSampleId(String sampleId);
+	public String getPvUnits();
+	public void setPvUnits(String pvUnits);
+	public String getRequestId();
+	public void setRequestId(String requestId);
+	public Integer getPvTemp();
+	public void setPvTemp(Integer pvTemp);
+	public String getPvQcUser();
+	public void setPvQcUser(String pvQcUser);
+}

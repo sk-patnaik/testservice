@@ -1,0 +1,64 @@
+package com.shell.siep.gto.persistence.model.raw;
+
+import com.shell.siep.gto.persistence.model.GTOAnalysisData;
+
+import java.util.Date;
+
+public interface GTOLiqDens extends GTOAnalysisData {
+	public Double getDnDensity();
+	public void setDnDensity(Double dnDensity);
+	public String getDnQcUser();
+	public void setDnQcUser(String dnQcUser);
+	public String getDnRunNumber();
+	public void setDnRunNumber(String dnRunNumber);
+	public String getDnSvcCode();
+	public void setDnSvcCode(String dnSvcCode);
+	public String getRequestId();
+	public void setRequestId(String requestId);
+	public Double getDnSgTemp();
+	public void setDnSgTemp(Double dnSgTemp);
+	public Date getDnQcDate();
+	public void setDnQcDate(Date dnQcDate);
+	public String getDnConQ();
+	public void setDnConQ(String dnConQ);
+	public String getDnUpdatedUser();
+	public void setDnUpdatedUser(String dnUpdatedUser);
+	public Date getDnUpdatedDate();
+	public void setDnUpdatedDate(Date dnUpdatedDate);
+	public Integer getDnMethodId();
+	public void setDnMethodId(Integer dnMethodId);
+	public Date getDnCreatedDate();
+	public void setDnCreatedDate(Date dnCreatedDate);
+	public Double getDnDensTemp();
+	public void setDnDensTemp(Double dnDensTemp);
+	public String getDnCreatedUser();
+	public void setDnCreatedUser(String dnCreatedUser);
+	public Integer getDnDensTempUnitsId();
+	public void setDnDensTempUnitsId(Integer dnDensTempUnitsId);
+	public String getDnRequestIdVend();
+	public void setDnRequestIdVend(String dnRequestIdVend);
+	public Double getDnSg();
+	public void setDnSg(Double dnSg);
+	public Integer getDnPk();
+	public void setDnPk(Integer dnPk);
+	public Integer getDnDensUnitsId();
+	public void setDnDensUnitsId(Integer dnDensUnitsId);
+	public String getDnAuthor();
+	public void setDnAuthor(String dnAuthor);
+	public String getDnSampleIdVend();
+	public void setDnSampleIdVend(String dnSampleIdVend);
+	public Integer getDnLab();
+	public void setDnLab(Integer dnLab);
+	public String getSampleId();
+	public void setSampleId(String sampleId);
+	public Integer getDnRecordTypeId();
+	public void setDnRecordTypeId(Integer dnRecordTypeId);
+	public Integer getDnSgTempUnitsId();
+	public void setDnSgTempUnitsId(Integer dnSgTempUnitsId);
+	public Integer getDnConfTypeId();
+	public void setDnConfTypeId(Integer dnConfTypeId);
+	public Date getDnAcqDate();
+	public void setDnAcqDate(Date dnAcqDate);
+	public String getDnComment();
+	public void setDnComment(String dnComment);
+}
